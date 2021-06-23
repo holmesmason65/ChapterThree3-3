@@ -123,6 +123,7 @@ namespace ChapterThree3_3
             this.btnFirst.TabIndex = 8;
             this.btnFirst.Text = "&First";
             this.btnFirst.UseVisualStyleBackColor = true;
+            this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
             // btnPrevious
             // 
@@ -132,6 +133,7 @@ namespace ChapterThree3_3
             this.btnPrevious.TabIndex = 9;
             this.btnPrevious.Text = "&Previous";
             this.btnPrevious.UseVisualStyleBackColor = true;
+            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
             // 
             // button3
             // 
@@ -141,6 +143,7 @@ namespace ChapterThree3_3
             this.button3.TabIndex = 10;
             this.button3.Text = "&Next";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -150,6 +153,7 @@ namespace ChapterThree3_3
             this.button4.TabIndex = 11;
             this.button4.Text = "&Last";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // frmCustomers
             // 
