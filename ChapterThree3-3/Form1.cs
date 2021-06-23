@@ -33,7 +33,6 @@ namespace ChapterThree3_3
         private void frmCustomers_Load(object sender, EventArgs e)
         {
             string pathName = Path.GetFullPath("SQLNwindDB.mdf");
-            MessageBox.Show(pathName);
 
             // connect to NWind database
             NWConnection = new SqlConnection($@"Data Source=.\SQLEXPRESS; AttachDbFileName={pathName}; Integrated Security=True; Connect Timeout=30; User Instance=True");
